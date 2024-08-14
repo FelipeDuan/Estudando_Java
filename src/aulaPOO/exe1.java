@@ -98,6 +98,8 @@ public class Main {
             AND &&
             OR ||
             XOR ~
+            NOT !
+
 
 
                 for (int i = 0; i <= sala; i++) {
