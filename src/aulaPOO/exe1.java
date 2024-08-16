@@ -11,6 +11,9 @@ public class exe1 {
         String nome, autor, cor, idade;
         int qtd;
 
+        // Menu Principal
+        menu();
+
         // Cadastrando livros
         System.out.println("Olá, bem vindo ao sistema de Cadastro e Impressão da biblioteca!");
         System.out.println("Quantos Livros você deseja cadastrar?");
@@ -50,6 +53,33 @@ public class exe1 {
         }
 
         teclado.close();
+    }
+
+    static void menu() {
+        System.out.println("Olá, seja muito bem-vindo ao Sistema de Gerenciamento da Livraria!");
+        System.out.println("Inicialmente, escolha uma das opções abaixo para utilizar o sistema:");
+        // Criação do Menu
+//        System.out.println("+=========================================+");
+//        System.out.println("|              Sistema Livraria           |");
+//        System.out.println("+=========================================+");
+//        System.out.println("| 1 - Cadastrar Livro | 2 - Remover Livro |");
+//        System.out.println("------------------------------------------+");
+//        System.out.println("| 3 -  Buscar Livro   | 4 - Buscar Autor  |");
+//        System.out.println("+=========================================+");
+//        System.out.println("|                5 - Sair                 |");
+//        System.out.println("+=========================================+");
+
+        // Passando para Unicode
+        System.out.println("╔═══════════════════════════════════════════╗");
+        System.out.println("║               Sistema Livraria            ║");
+        System.out.println("╠═══════════════════════════════════════════╣");
+        System.out.println("║ 1 - Cadastrar Livro  ║  2 - Remover Livro ║");
+        System.out.println("╠───────────────────────────────────────────╣");
+        System.out.println("║ 3 -  Buscar Livro    ║  4 - Buscar Autor  ║");
+        System.out.println("╠═══════════════════════════════════════════╣");
+        System.out.println("║                  5 - Sair                 ║");
+        System.out.println("╚═══════════════════════════════════════════╝");
+
     }
 }
 
