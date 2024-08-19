@@ -1,14 +1,14 @@
 package aulaPOO;
 
 public class Livro {
-    String nome;
+    private static String nome;
     String autor;
     String cor;
     String faixa_idade;
 
     // Construtor com parâmetros
     public Livro(String nome, String autor, String cor, String faixa_idade) {
-        this.nome = nome;
+        Livro.nome = nome;
         this.autor = autor;
         this.cor = cor;
         this.faixa_idade = faixa_idade;
