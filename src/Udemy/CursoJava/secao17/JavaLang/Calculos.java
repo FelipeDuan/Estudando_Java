@@ -1,4 +1,4 @@
-package Udemy.CursoJava.JavaLang;
+package Udemy.CursoJava.secao17.JavaLang;
 // Cálculos com a Math
 public class Calculos {
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
-package Udemy.CursoJava.JavaLang;
+package Udemy.CursoJava.secao17.JavaLang;
 
 // Caixa de Objetos Genéricos
-
-import Udemy.CursoJava.secao10.Conta;
 
 public class Caixa {
     private Object[] objetos; // Array do tipo Conta

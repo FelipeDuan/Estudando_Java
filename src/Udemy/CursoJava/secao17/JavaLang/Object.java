@@ -1,4 +1,4 @@
-package Udemy.CursoJava.JavaLang;
+package Udemy.CursoJava.secao17.JavaLang;
 
 import Udemy.CursoJava.secao10.Cliente;
 import Udemy.CursoJava.secao10.Conta;
