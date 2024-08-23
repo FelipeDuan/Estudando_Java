@@ -6,7 +6,7 @@ package Udemy.CursoJava.secao10;
 
 public class Public {
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("Luís Eduardo", "Rua Deide Costas, 169");
+        Cliente cliente = new Cliente("Luís Eduardo", 13, "Rua Deide Costas, 169");
 
         System.out.println(cliente.hashCode());
     }

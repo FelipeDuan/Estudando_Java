@@ -8,12 +8,12 @@ package Udemy.CursoJava.secao10;
  */
 public class Private {
     public static void main(String[] args) {
-        Cliente cli1 = new Cliente("Roneide Brito", "Bairro Marquês, 476");
+        Cliente cli1 = new Cliente("Roneide Brito", 55, "Bairro Marquês, 476");
         System.out.println("Nome: " + cli1.getNome());
         System.out.println("Endereço: " + cli1.getEndereco());
         System.out.println();
 
-        Cliente cli2 = new Cliente("Duany Dreyton", "Rua Im Ghost to the down cool, 169");
+        Cliente cli2 = new Cliente("Duany Dreyton", 45, "Rua Im Ghost to the down cool, 169");
         System.out.println("Nome: " + cli2.getNome());
         System.out.println("Endereço: " + cli2.getEndereco());
         System.out.println();

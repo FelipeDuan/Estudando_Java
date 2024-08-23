@@ -13,7 +13,7 @@ import java.util.Scanner;
 
  */
 public class Principal {
-    static Cliente cliente = new Cliente("Felipe Duan", "Rua Mário");
+    static Cliente cliente = new Cliente("Felipe Duan", 18, "Rua Mário");
     static Conta conta = new Conta(1, 200, 300, cliente);
     static Scanner teclado = new Scanner(System.in);
 

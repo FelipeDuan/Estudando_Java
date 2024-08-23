@@ -9,8 +9,8 @@ import Udemy.CursoJava.secao10.Conta;
  */
 public class Object {
     public static void main(String[] args) {
-        Cliente felipe = new Cliente("Felipe Duan", "Rua 1, 234");
-        Cliente duany = new Cliente("Duany Dreyton", "Rua 2, 567");
+        Cliente felipe = new Cliente("Felipe Duan", 18, "Rua 1, 234");
+        Cliente duany = new Cliente("Duany Dreyton", 45, "Rua 2, 567");
         Conta c1 = new Conta(1, 200, 300, felipe);
         Conta c2 = new Conta(1, 200, 300, duany);
 
