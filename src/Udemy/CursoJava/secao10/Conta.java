@@ -51,11 +51,18 @@ public class Conta {
      *
      * @param valor
      */
-    public void depositar(float valor) {
-        // tenho 100
-        // quero depositar 50
-        // 100 + 50 = 150
-        this.saldo = this.saldo + valor;
+//    public void depositar(float valor) {
+//        // tenho 100
+//        // quero depositar 50
+//        // 100 + 50 = 150
+//        // Forma 1:
+//        synchronized (this) {
+//            this.saldo = this.saldo + valor;
+//        }
+//    }
+
+    public synchronized void depositar(float valor) {
+        this.saldo += valor;
     }
 
     /**
