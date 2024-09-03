@@ -17,11 +17,11 @@ public class Menu {
 
         // Passando para Unicode
         System.out.println("╔═══════════════════════════════════════════╗");
-        System.out.println("║               Sistema Livraria            ║");
+        System.out.println("║              Sistema Livraria             ║");
         System.out.println("╠═══════════════════════════════════════════╣");
-        System.out.println("║ 1 - Cadastrar Livro  ║  2 - Remover Livro ║");
+        System.out.println("║ 1 - Cadastrar Livro ║  2 - Remover Livro  ║");
         System.out.println("╠───────────────────────────────────────────╣");
-        System.out.println("║ 3 -  Buscar Livro    ║  4 - Buscar Autor  ║");
+        System.out.println("║ 3 -  Buscar Livro   ║  4 - Buscar Autor   ║");
         System.out.println("╠═══════════════════════════════════════════╣");
         System.out.println("║                  5 - Sair                 ║");
         System.out.println("╚═══════════════════════════════════════════╝");
