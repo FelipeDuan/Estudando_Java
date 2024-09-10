@@ -1,7 +1,7 @@
 package aulaPOO.Livraria;
 
-import static aulaPOO.Livraria.main.livros;
-import static aulaPOO.Livraria.main.teclado;
+import static aulaPOO.Livraria.Main.livros;
+import static aulaPOO.Livraria.Main.teclado;
 
 public class Livro {
     String nome;
